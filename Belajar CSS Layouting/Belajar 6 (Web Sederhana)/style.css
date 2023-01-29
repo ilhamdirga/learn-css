@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*own css*/
+body{
+	font : 14px/28px arial sans-serif;
+	background-image: url(bg.png);
+}
+.bar{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	background-color: lightskyblue;
+	z-index: 999;
+	border-bottom: 2px solid darkorange;
+}
+.container{
+	width: 960px;
+	margin : 120px auto;
+	background-color: lightgray;
+	border-right: 5px solid darkorange;
+	border-left: 5px solid darkorange;
+	position: relative;
+}
+.ig{
+	width: 100px;
+	height: 100px;
+	background-image: url(borobudur.jpg);
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header{
+	padding: 20px;
+}
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.header ul li{
+	margin-top: 15px;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 20px;
+	border-right: 2px solid black;
+}
+.header a{
+	color: darkorange;
+	text-decoration: none;
+	padding: 5px;
+}
+.header ul li a:hover{
+	color: white;
+	background-color: darkorange;
+}
+
+.oke{
+	height: 400px;
+	background-image: url(gambar.jpg);
+	background-size: cover;
+	background-position: 0 -190px;
+	border-top: 5px solid darkblue;
+	border-bottom: 5px solid darkgray;
+}
+.main{
+	padding: 20px;
+}
+.main{
+	width: 550px;
+	float: left;
+}
+.main h2{
+	margin-top: 5px;
+	font-size: 34px;
+}
+.main .penulis{
+	font-size: 16px;
+}
+.main .penulis a{
+	color: darkorange;
+	text-decoration: none;
+}
+.main .penulis a:hover{
+	background-color: darkorange;
+	color: white;
+}
+.footer{
+	padding: 25px;
+	background-color: black;
+}
+.footer .copy{
+	font-size: 18px;
+	color: grey;
+	text-align: center;
+}
+.main p{
+	margin-bottom: 15px;
+}
+.main .isi {
+	text-indent: 20px;
+	text-align: justify;
+}
+div{
+	box-sizing: border-box;
+}
+/*sidebar*/
+.sidebar{
+	width: 350px;
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.sidebar p{
+	text-align: justify;
+	padding-top: 2px;
+}
+.sidebar h3{
+	padding-top: 2px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.sidebar img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+
+/*clear fix*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

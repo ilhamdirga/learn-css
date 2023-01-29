@@ -1,0 +1,15 @@
+h1{
+	color: #35b6a8;
+	text-decoration: underline;
+}
+p{
+	text-indent: 50px;
+	text-align: justify;
+	text-transform: normal;
+}
+a{
+	
+	color: gold;
+	letter-spacing: normal;
+	font-weight: bold;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transition</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.container{
+			width: 900px;
+			/*height: 100px;*/
+			border: 2px solid black;
+			margin: 50px auto;
+			padding: 0;
+		}
+		/*transitiom : (property) [durasi] (fungsi) (delay)
+		*/
+		/*Timing function :
+			ease
+			ease-in
+			ease-out
+			ease-in-out
+			linear
+			cubic-bezier(w,x,y,z)
+		*/
+		.kotak{
+			width: 100px;
+			height: 100px;
+			background-color: salmon;
+			transition: 0.9s;
+			text-align: center;
+			line-height: 100px;
+			margin: 5px;
+		}
+		.kotak1{
+			transition: all 2s ease;
+		}
+		.kotak2{
+			transition: all 2s ease-in;
+		}
+		.kotak3{
+			transition: all 2s ease-out;
+		}
+		.kotak4{
+			transition: all 2s ease-in-out;
+		}
+		.kotak5{
+			transition: all 2s linear;
+		}
+		.kotak6{
+			transition: all 2s cubic-bezier(0.83, 0.07, 0.74, 1.49);
+		}
+		.container:hover .kotak{
+			transform: rotate(450deg);
+			margin-left: 795px;
+			background-color: skyblue;
+		}
+		.container2{
+			margin: 50px auto;
+			width: 900px;
+			border: 2px solid black;
+		}
+		.kotak7{
+			/*aplikasi delay*/
+			transition: margin-left 2s, transform 2s 1s, background-color 0.5s 2s;
+		}
+		.container2:hover .kotak{
+			transform: rotate(450deg);
+			margin-left: 795px;
+			background-color: skyblue;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="kotak kotak1">ease</div>
+		<div class="kotak kotak2">ease-in</div>
+		<div class="kotak kotak3">ease-out</div>
+		<div class="kotak kotak4">ease-in-out</div>
+		<div class="kotak kotak5">linear</div>
+		<div class="kotak kotak6">cubic-bezier</div>
+	</div>
+	<div class="container2">
+		<div class="kotak kotak7">with delay</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	line-height: 24px;
+
+}
+
+.container-satu{
+	padding: 10px;
+	margin: 40px 30px;
+	background-color: #a6babe;
+	border-radius: 10px;
+	display: flex;
+}
+
+.container-satu .side-utama,
+.container-satu .side-satu,
+.container-satu .side-dua {
+	margin: 5px;
+}
+
+.side-utama{
+	order: 2;
+	flex: 5.4;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px 20px;
+}
+
+.side-utama p{
+	text-align: justify;
+	text-indent: 20px;
+}
+.side-utama h4,
+.side-satu h4,
+.side-dua h4 {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #1F85DE;
+}
+.side-utama,
+.side-dua {
+	padding: 10px 20px;
+}
+
+.side-pembungkus-satu{
+	order: 1;
+	flex: 1;
+	background-color: #baddfb/*#a6babe*/;
+	box-sizing: border-box;
+	padding: 2px 2px;
+	border-radius: 5px;
+	/*margin-right: 5px;*/
+}
+
+.side-satu{
+	/*padding: 4px;*/
+	background-color:#baddfb;
+	border-radius: 5px;
+	
+}
+
+.side-satu ul{
+	margin: 4px 2px;
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.side-satu .judul{
+	background-color: #1F85DE;
+	margin: 5px 4px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	padding: 8px 0;
+
+}
+
+.side-satu ul li {
+	width: 48px;
+	height: 48px;
+	background-color: #1F85DE;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.side-satu ul a{
+	color: white;
+	text-decoration: none;
+}
+
+.side-satu ul a li:hover {
+	background-color: #0c3151;
+	color: white;
+}
+
+/*.side-dua{
+	order: 3;
+	flex: 1;
+	background-color: white;
+	border-radius: 5px;
+}*/

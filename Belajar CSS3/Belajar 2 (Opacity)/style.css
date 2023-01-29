@@ -1,0 +1,39 @@
+body{
+	background-image: url(bg.png);
+}
+.container{
+	width: 200px;
+	height: 200px;
+	margin: 100px auto;
+	background-color: salmon;
+	opacity: 0.7;
+	position: relative;
+}
+.kotak{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	/*transparan terhadap parent*/
+	opacity: 0.5;
+}
+.pembungkus{
+	width: 200px;
+	height: 200px;
+	margin: 100px auto;
+	/*rgba digunakan untuk agar child dari parent tidak ikut transparan, karena yang transparan hanya elemen warnanya*/
+	background-color: rgba(31,117,222, 0.7);
+	position: relative;
+}
+.kotak2{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	/*transparan terhadap parent*/
+	/*opacity: 0.5;*/
+}

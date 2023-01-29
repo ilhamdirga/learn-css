@@ -1,0 +1,34 @@
+body{
+	height: 2000px;
+}
+div{
+	width: 200px;
+	height: 200px;
+	margin: 20px auto;
+}
+.satu{
+	background-color: #1764c2;
+	/*x-offset y-offset blur color*/
+	box-shadow: 10px 10px 10px rgb(4,4,4,0.55);
+}
+.dua{
+	margin-top: 100px;
+	background-color: #0e4351;
+	/*x-offset y-offset blur spread color*/
+	box-shadow: 0px 30px 10px -20px rgba(4,0,4,0.5);
+}
+.tiga{
+	margin-top: 100px;
+	background-color: salmon;
+	/*inset x-offset y-offset blur spread color*/
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.7);
+}
+.empat{
+	margin-top: 100px;
+	background-color: #190e51;
+	box-shadow: 0 0 0px 5px skyblue, 
+	0 0 0 10px lightgreen, 0 0 0 15px orange;
+	border-radius: 0 50% 0 50%;
+
+
+}

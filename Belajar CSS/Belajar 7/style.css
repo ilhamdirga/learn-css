@@ -1,0 +1,7 @@
+ul#list li{
+	color: darkorange;
+}
+ul#list li.l1{
+	color: blue;
+	text-decoration: underline;
+}

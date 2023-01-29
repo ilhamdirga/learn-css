@@ -1,0 +1,45 @@
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+p{
+	text-align: justify;
+	text-indent: 25px;
+}
+.hello:link{
+	color: green;
+}
+.hello:hover{
+	color: green;
+	font-size: 48px;
+	font-family: arial;
+}
+.hello:active{
+	color: darkorange;
+}
+.hello:visited{
+	/*color: #181d32;*/
+}
+ul li a{
+	text-decoration: none;
+}
+li:nth-child(odd) a{
+	color: darkgreen;
+}
+li:nth-child(odd) a:hover{
+	color: darkorange;
+	text-decoration: underline;
+}
+li:nth-child(even) a{
+	color: darkblue;
+}
+li:nth-child(even) a:hover{
+	color: darkorange;
+	text-decoration: underline;
+}
+p:first-of-type{
+	color: blue;
+}
+p:last-of-type{
+	color: green;
+}

@@ -1,0 +1,18 @@
+div{
+	width: 200px;
+	height: 200px;
+}
+.satu{
+	background-color: lightskyblue;
+}
+.dua{
+	background-color: lightgreen;
+	/*position: static; -> posisi default*/
+	position: relative; /*untuk mengangkat elemen seolah2 berada di dimensi yg berbeda*/
+	/*position membuat jarak relative terhadap posisi semula*/
+	top: 20px;
+	left: 100px;
+}
+.tiga{
+	background-color: lightcoral;
+}

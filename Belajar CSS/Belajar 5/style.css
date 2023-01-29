@@ -1,0 +1,34 @@
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+ul{
+	color: blue;
+}
+ol{
+	color: darkgreen;
+}
+ul li a{
+	color: darkcyan;
+}
+ol li a{
+	color: darkorange;
+}
+h1, h3{
+	color: green;
+}
+h3{
+	font-family: arial;
+}
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+.p1{
+	color: blue;
+}
+
+}
+#p2{
+	color: purple;
+}

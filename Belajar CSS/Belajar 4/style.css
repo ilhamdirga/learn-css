@@ -1,0 +1,15 @@
+body{
+	background-color: #d0e7e5;
+	background-image: url(Gambar/flower.png);
+	background-repeat: repeat-y;
+	background-position: top center;
+
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 75px;
+}
+p{
+	text-align: justify;
+}

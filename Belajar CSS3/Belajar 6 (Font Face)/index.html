@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Font Face</title>
+	<style>
+		/*cara penulisan font face :
+			@font-face{
+				font-family: 'namaFontBaru';
+				src: url('lokasiFile.eot');
+				src: url('lokasiFile.eot?iefix') format('embedded-opentype'), 
+				url('lokasiFile.woff2') format('woff2'),
+				url('lokasiFile.woff') format('woff'),
+				url('lokasiFile.ttf') format('truetype'),
+				url('lokasiFile.svg#svgFontName') format('svg');
+			}
+			disarankan berformat woff atau ttf
+			website download font : https://www.fontsquirrel.com/
+		*/
+		@font-face {
+		    font-family: 'rubikregular';
+		    src: url('rubik-regular-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+		@font-face{
+			font-family: 'fontBaru';
+			src: url('font.ttf') format('truetype');
+		}
+		h1{
+			font-size: 100px;
+			text-align: center;
+			font-family: 'rubikregular', arial;
+			font-style: italic;
+			text-shadow: 5px 5px 10px rgba(2,10,0,0.5), 10px 10px 10px rgba(0,0,0,0.8);
+		}
+	</style>
+</head>
+<body>
+	<h1>Hello World</h1>
+
+</body>
+</html>

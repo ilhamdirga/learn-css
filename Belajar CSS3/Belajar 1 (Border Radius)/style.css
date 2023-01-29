@@ -1,0 +1,22 @@
+div{
+	width: 200px;
+	height: 200px;
+	margin: 50px auto;
+}
+.kotak{
+	background-color: salmon;
+	border-radius: 50%;
+}
+.setling{
+	height: 100px;
+	background-color: green;
+	border-radius: 100px 100px 0 0;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border: 150px solid transparent;
+	border-top: 0;
+	border-bottom: 300px solid red;
+	border-top-left-radius: 50%;
+}

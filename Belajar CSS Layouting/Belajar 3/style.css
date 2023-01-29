@@ -1,0 +1,27 @@
+/*margin tidak saling menambahkan untuk vertikal*/
+/*margin saling menambahkan untuk horizontal*/
+/*margin negatif akan membuat margin yang berlawanan arah*/
+/*margin auto membuat center berdasarkan parent*/
+/*margin : 10px 20px 30px 40px -> shorhand (sesuai arah jarum jam)*/
+
+.satu{
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+.dua{
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+
+.tiga{
+	width: 50px;
+	height: 50px;
+	background-color: hotpink;
+}
